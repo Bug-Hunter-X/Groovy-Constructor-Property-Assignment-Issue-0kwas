@@ -1,0 +1,2 @@
+# Groovy Constructor Property Assignment Bug
+This example demonstrates a subtle issue in Groovy's constructor behavior.  When assigning properties within a constructor without using `this.propertyName = ...`, Groovy doesn't correctly assign the value to the class property.
